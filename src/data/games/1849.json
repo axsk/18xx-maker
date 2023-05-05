@@ -917,15 +917,15 @@
           "percent": 0.65,
           "revenues": [
             {
-              "color": "xxpaper_yellow",
+              "color": "yellow",
               "cost": 20
             },
             {
-              "color": "xxpaper_blue",
+              "color": "green",
               "cost": 30
             },
             {
-              "color": "xxpaper_red",
+              "color": "brown",
               "cost": 40
             }
           ]
@@ -1052,15 +1052,15 @@
           "percent": 0.65,
           "revenues": [
             {
-              "color": "xxpaper_yellow",
+              "color": "yellow",
               "cost": 10
             },
             {
-              "color": "xxpaper_blue",
+              "color": "green",
               "cost": 30
             },
             {
-              "color": "xxpaper_red",
+              "color": "brown",
               "cost": 90
             }
           ]
@@ -1075,9 +1075,13 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 160
-        },
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 160,
+	    "size": "large"
+          }
+        ],
         "hexes": [
           "B5",
           "L5",
@@ -1103,6 +1107,7 @@
             }
           }
         ],
+		
         "mountain": {
           "size": "small",
           "cost": 40,
@@ -1122,20 +1127,20 @@
           }
         ],
         "offBoardRevenue": {
-          "angle": 112,
-          "percent": 0.8,
-          "rows": 3,
+
+"angle": 180,
+          "percent": 0.65,
           "revenues": [
             {
-              "color": "xxpaper_yellow",
+              "color": "yellow",
               "cost": 20
             },
             {
-              "color": "xxpaper_blue",
+              "color": "green",
               "cost": 30
             },
             {
-              "color": "xxpaper_red",
+              "color": "brown",
               "cost": 40
             }
           ]
@@ -1163,14 +1168,16 @@
       {
         "color": "plain",
         "mountain": {
-          "cost": 80
+          "cost": 80,
+		  "size": "medium"
         },
         "hexes": ["C6", "F7", "G8", "E10"]
       },
       {
         "copy": "D5",
         "mountain": {
-          "cost": 160
+          "cost": 160,
+		  "size": "large"
         },
         "centerTowns": [
           {
@@ -1201,9 +1208,6 @@
             }
           }
         ],
-        "mountain": {
-          "cost": 160
-        },
         "hexes": ["K6"]
       },
       {
@@ -1248,18 +1252,21 @@
             }
           }
         ],
-        "mountain": {
-          "cost": 160
-        },
         "hexes": ["J7"]
       },
       {
         "color": "gray",
         "names": [
           {
-            "name": "Etna"
+            "name": ""
           }
         ],
+		"mountain": {
+          "cost": "L'Etna",
+		  "size": "large",
+		  "percent": "0"
+        },
+		
         "hexes": ["L7"]
       },
       {
@@ -1285,10 +1292,7 @@
         "hexes": ["C8"]
       },
       {
-        "copy": "D5",
-        "mountain": {
-          "cost": 80
-        },
+        "copy": "D9",
         "centerTowns": [
           {
             "name": {
@@ -1320,7 +1324,8 @@
       {
         "copy": "D5",
         "mountain": {
-          "cost": 80
+          "cost": 80,
+		  "size": "medium"
         },
         "centerTowns": [
           {
@@ -1342,7 +1347,8 @@
         "color": "plain",
         "mountain": {
           "percent": 0.45,
-          "cost": 80
+          "cost": 80,
+		  "size": "medium"
         },
         "cities": [
           {
@@ -1389,7 +1395,7 @@
         "hexes": ["L9"]
       },
       {
-        "copy": "E6",
+        "copy": "D5",
         "centerTowns": [
           {
             "name": {
@@ -1397,9 +1403,6 @@
             }
           }
         ],
-        "mountain": {
-          "cost": 40
-        },
         "hexes": ["G10"]
       },
       {
@@ -1426,7 +1429,8 @@
       {
         "copy": "H9",
         "mountain": {
-          "cost": 40
+          "cost": 40,
+		  "size": "small"
         },
         "cities": [
           {
@@ -1467,7 +1471,8 @@
             "type": "mountain",
             "angle": 90,
             "percent": 0.5,
-            "cost": 160
+            "cost": 160,
+	    "size": "large"
           }
         ],
         "track": [
@@ -1569,15 +1574,15 @@
           "percent": 0.7,
           "revenues": [
             {
-              "color": "xxpaper_yellow",
+              "color": "yellow",
               "cost": 20
             },
             {
-              "color": "xxpaper_blue",
+              "color": "green",
               "cost": 30
             },
             {
-              "color": "xxpaper_red",
+              "color": "brown",
               "cost": 40
             }
           ]
@@ -1633,7 +1638,7 @@
           {
             "companies": ["ATA"],
             "name": {
-              "name": "Siacusa",
+              "name": "Siracusa",
               "rotation": 30
             }
           }
@@ -1657,9 +1662,12 @@
         "color": "water",
         "track": [
           {
+            "borderColor": "black",
+            "gaugeColor": "white",
             "type": "offboard",
             "gauge": "dual",
-            "side": 5
+            "side": 5,
+	    "width": 3
           }
         ],
         "icons": [
@@ -1689,6 +1697,10 @@
       }
     ],
     "borders": [
+      {
+        "color": "water",
+        "coords": ["A4p3", "B3p6"]
+      },
       {
         "color": "water",
         "coords": ["D3p1", "D3p6"]
