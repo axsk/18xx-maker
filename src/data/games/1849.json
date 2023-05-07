@@ -758,6 +758,130 @@
     },
     "hexes": [
       {
+        "color": "hl1",
+        "mountain": {
+          "cost": 40,
+          "color": "orange",
+          "text": "black"
+        },
+        "hexes": ["B3", "F9", "J9", "K12"]
+      },
+      {
+        "copy": "B3",
+        "color": "hl2",
+        "mountain": {
+          "cost": 80,
+          "size": "medium"
+        },
+        "hexes": ["C6", "F7", "G8", "E10"]
+      },
+      {
+        "copy": "B3",
+        "color": "hl3",
+        "mountain": {
+          "cost": 160,
+          "size": "large"
+        },
+        "hexes": [
+          "B5",
+          "L5",
+          "B7",
+          "D7",
+          "E8",
+          "H7",
+          "I6",
+          "K8",
+          "H11",
+          "L13",
+          "J13"
+        ]
+      },
+
+      {
+        "copy": "B3",
+        "centerTowns": [
+          {
+            "angle": 180,
+            "percent": 0.333,
+            "name": {
+              "name": "Partinico"
+            }
+          }
+        ],
+        "mountain": {
+          "percent": 0.333
+        },
+        "hexes": ["D5"]
+      },
+      {
+        "copy": "C6",
+        "mountain": {
+          "percent": 0.333
+        },
+        "centerTowns": [
+          {
+            "angle": 180,
+            "percent": 0.333,
+            "name": {
+              "name": "Sciacca"
+            }
+          }
+        ],
+        "hexes": ["D9"]
+      },
+
+      {
+        "copy": "B5",
+        "mountain": {
+          "percent": 0.333
+        },
+        "centerTowns": [
+          {
+            "angle": 180,
+            "percent": 0.333,
+            "name": {
+              "name": "Corleone"
+            }
+          }
+        ],
+        "hexes": ["E6"]
+      },
+      {
+        "copy": "B3",
+        "mountain": {
+          "percent": 0.45
+        },
+        "cities": [
+          {
+            "angle": 180,
+            "percent": 0.333,
+            "name": {
+              "name": "Girgenti"
+            },
+            "companies": ["SFA"]
+          }
+        ],
+        "hexes": ["F11"]
+      },
+      {
+        "copy": "C6",
+        "mountain": {
+          "percent": 0.45
+        },
+        "cities": [
+          {
+            "angle": 180,
+            "percent": 0.333,
+            "name": {
+              "name": "Caltanisetta"
+            },
+            "companies": []
+          }
+        ],
+        "hexes": ["H9"]
+      },
+
+      {
         "color": "water",
         "track": [
           {
@@ -833,6 +957,11 @@
       },
       {
         "color": "gray",
+        "divides": [
+          {
+            "rotate": 30
+          }
+        ],
         "track": [
           {
             "type": "sharp",
@@ -842,17 +971,7 @@
         ],
         "hexes": ["O2"]
       },
-      {
-        "color": "gray",
-        "track": [
-          {
-            "type": "straight",
-            "gauge": "dual",
-            "side": 1
-          }
-        ],
-        "hexes": ["O4"]
-      },
+
       {
         "color": "plain",
         "hexes": [
@@ -917,15 +1036,15 @@
           "percent": 0.65,
           "revenues": [
             {
-              "color": "yellow",
+              "color": "plain",
               "cost": 20
             },
             {
-              "color": "green",
+              "color": "plain",
               "cost": 30
             },
             {
-              "color": "brown",
+              "color": "plain",
               "cost": 40
             }
           ]
@@ -1052,15 +1171,15 @@
           "percent": 0.65,
           "revenues": [
             {
-              "color": "yellow",
+              "color": "plain",
               "cost": 10
             },
             {
-              "color": "green",
+              "color": "plain",
               "cost": 30
             },
             {
-              "color": "brown",
+              "color": "plain",
               "cost": 90
             }
           ]
@@ -1071,49 +1190,7 @@
             "gauge": "dual"
           }
         ],
-        "hexes": ["O6"]
-      },
-      {
-        "color": "plain",
-        "terrain": [
-          {
-            "type": "mountain",
-            "cost": 160,
-	    "size": "large"
-          }
-        ],
-        "hexes": [
-          "B5",
-          "L5",
-          "B7",
-          "D7",
-          "E8",
-          "H7",
-          "I6",
-          "K8",
-          "H11",
-          "L13",
-          "J13"
-        ]
-      },
-      {
-        "color": "plain",
-        "centerTowns": [
-          {
-            "angle": 180,
-            "percent": 0.333,
-            "name": {
-              "name": "Partinico"
-            }
-          }
-        ],
-		
-        "mountain": {
-          "size": "small",
-          "cost": 40,
-          "percent": 0.333
-        },
-        "hexes": ["D5"]
+        "hexes": ["O4"]
       },
       {
         "color": "gray",
@@ -1127,20 +1204,19 @@
           }
         ],
         "offBoardRevenue": {
-
-"angle": 180,
+          "angle": 180,
           "percent": 0.65,
           "revenues": [
             {
-              "color": "yellow",
+              "color": "plain",
               "cost": 20
             },
             {
-              "color": "green",
+              "color": "plain",
               "cost": 30
             },
             {
-              "color": "brown",
+              "color": "plain",
               "cost": 40
             }
           ]
@@ -1165,29 +1241,7 @@
         ],
         "hexes": ["A6"]
       },
-      {
-        "color": "plain",
-        "mountain": {
-          "cost": 80,
-		  "size": "medium"
-        },
-        "hexes": ["C6", "F7", "G8", "E10"]
-      },
-      {
-        "copy": "D5",
-        "mountain": {
-          "cost": 160,
-		  "size": "large"
-        },
-        "centerTowns": [
-          {
-            "name": {
-              "name": "Corleone"
-            }
-          }
-        ],
-        "hexes": ["E6"]
-      },
+
       {
         "copy": "C4",
         "centerTowns": [
@@ -1261,12 +1315,12 @@
             "name": ""
           }
         ],
-		"mountain": {
+        "mountain": {
           "cost": "L'Etna",
-		  "size": "large",
-		  "percent": "0"
+          "size": "large",
+          "percent": "0"
         },
-		
+
         "hexes": ["L7"]
       },
       {
@@ -1316,51 +1370,14 @@
           {
             "label": "SCE",
             "angle": 180,
-            "percent": 0.3333
+            "percent": 0.45,
+            "color": "orange",
+            "radius": 6
           }
         ],
         "hexes": ["M8"]
       },
-      {
-        "copy": "D5",
-        "mountain": {
-          "cost": 80,
-		  "size": "medium"
-        },
-        "centerTowns": [
-          {
-            "name": {
-              "name": "Sciacca"
-            }
-          }
-        ],
-        "hexes": ["D9"]
-      },
-      {
-        "color": "plain",
-        "mountain": {
-          "cost": 40
-        },
-        "hexes": ["B3", "F9", "J9", "K12"]
-      },
-      {
-        "color": "plain",
-        "mountain": {
-          "percent": 0.45,
-          "cost": 80,
-		  "size": "medium"
-        },
-        "cities": [
-          {
-            "angle": 180,
-            "percent": 0.333,
-            "name": {
-              "name": "Caltanisetta"
-            }
-          }
-        ],
-        "hexes": ["H9"]
-      },
+
       {
         "color": "yellow",
         "values": [
@@ -1427,22 +1444,6 @@
         "hexes": ["K10"]
       },
       {
-        "copy": "H9",
-        "mountain": {
-          "cost": 40,
-		  "size": "small"
-        },
-        "cities": [
-          {
-            "name": {
-              "name": "Girgenti"
-            },
-            "companies": ["SFA"]
-          }
-        ],
-        "hexes": ["F11"]
-      },
-      {
         "copy": "G10",
         "centerTowns": [
           {
@@ -1472,7 +1473,7 @@
             "angle": 90,
             "percent": 0.5,
             "cost": 160,
-	    "size": "large"
+            "size": "large"
           }
         ],
         "track": [
@@ -1574,15 +1575,15 @@
           "percent": 0.7,
           "revenues": [
             {
-              "color": "yellow",
+              "color": "plain",
               "cost": 20
             },
             {
-              "color": "green",
+              "color": "plain",
               "cost": 30
             },
             {
-              "color": "brown",
+              "color": "plain",
               "cost": 40
             }
           ]
@@ -1620,7 +1621,7 @@
             "type": "mountain",
             "cost": 40,
             "angle": -30,
-            "percent": 0.7
+            "percent": 0.66
           }
         ],
         "hexes": ["K14"]
@@ -1667,7 +1668,7 @@
             "type": "offboard",
             "gauge": "dual",
             "side": 5,
-	    "width": 3
+            "width": 3
           }
         ],
         "icons": [
