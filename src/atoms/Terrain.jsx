@@ -63,8 +63,8 @@ const Terrain = ({ type, size, cost, fontFamily, fontSize, color }) => {
         <g>
           {icon}
           <text
-            fill={p(color || "black")}
-            strokeWidth={(!color || color === "black") ? 0 : 1}
+            fill={p("black")}
+            strokeWidth={0}
             stroke={c("black")}
             fontSize={fontSize}
             fontFamily={fontFamily}
