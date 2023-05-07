@@ -1,24 +1,25 @@
 {
   "name": "Alex turq",
+  "fontFamily": "Times New Roman",
   "colors": {
-    "yellow": "#ffea00",
-    "green": "#009248",
-    "brown": "#a85f34",
+    "yellow": "#fde900",
+    "green": "#71bf44",
+    "brown": "#cb7745",
     "gray": "#99dbcd",
 
-    "plain": "#ffefd2",
+    "plain": "#fff5e6",
     "offboard": "#c1575e",
     "mountain": "#ff944b",
-    "water": "#44c0f8",
+    "water": "#62a0ff",
     "land": "#dcd8ba",
     "river": "#68B2D8",
 
     "orange": "#faac51",
     "red": "#ef7895",
 
-    "hl1": "#e6cfa9",
-    "hl2": "#d9c398",
-    "hl3": "#ccaf78",
+    "hl1": "#f5e3c4",
+    "hl2": "#ebd1a4",
+    "hl3": "#e0bf87",
     "hl4": "#2992d3",
 
     "white": "#fff",

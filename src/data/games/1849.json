@@ -761,8 +761,7 @@
         "color": "hl1",
         "mountain": {
           "cost": 40,
-          "color": "orange",
-          "text": "black"
+          "color": "orange"
         },
         "hexes": ["B3", "F9", "J9", "K12"]
       },
@@ -1466,16 +1465,12 @@
         "hexes": ["G12"]
       },
       {
+        "copy": "B5",
         "color": "yellow",
-        "terrain": [
-          {
-            "type": "mountain",
-            "angle": 90,
-            "percent": 0.5,
-            "cost": 160,
-            "size": "large"
-          }
-        ],
+        "mountain": {
+          "angle": 90,
+          "percent": 0.5
+        },
         "track": [
           {
             "type": "straight",
@@ -1591,6 +1586,7 @@
         "hexes": ["I14"]
       },
       {
+        "copy": "B3",
         "color": "yellow",
         "cities": [
           {
@@ -1616,14 +1612,10 @@
             "percent": 0.75
           }
         ],
-        "terrain": [
-          {
-            "type": "mountain",
-            "cost": 40,
-            "angle": -30,
-            "percent": 0.66
-          }
-        ],
+        "mountain": {
+          "angle": -30,
+          "percent": 0.66
+        },
         "hexes": ["K14"]
       },
       {
