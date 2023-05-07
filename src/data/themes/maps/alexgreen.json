@@ -1,0 +1,34 @@
+{
+  "name": "Alex Green",
+  "colors": {
+    "yellow": "#ffea00",
+    "green": "#009248",
+    "brown": "#a85f34",
+    "gray": "#bcc0ad",
+
+    "plain": "#ffffe0",
+    "offboard": "#c1575e",
+    "mountain": "#d3bb98",
+    "water": "#54d8fc",
+    "land": "#dcd8ba",
+    "river": "#68B2D8",
+
+    "orange": "#faac51",
+    "red": "#ef7895",
+
+    "hl1": "#eee8aa",
+    "hl2": "#dfd881",
+    "hl3": "#cac36c",
+    "hl4": "#2992d3",
+
+    "white": "#fff",
+    "black": "#000",
+
+    "track": "#000",
+    "border": "#fff",
+    "city": "#fff",
+    "town": "#000",
+    "centerTown": "#000",
+    "halt": "#7a8e56"
+  }
+}
