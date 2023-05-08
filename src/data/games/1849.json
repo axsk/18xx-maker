@@ -5,13 +5,14 @@
     "designer": "Federico Vellani",
     "background": "water",
     "orientation": "horizontal",
-    "titleY": 880,
-    "titleX": 25,
+    "titleY": 1000,
+    "titleX": 0,
     "marketTokens": 2,
     "currency": "L.#",
     "#nameFontSize": "14",
     "nameFontWeight": "300",
     "nameFontFamily": "display",
+    "designerSize": 0.001,
     "borderWidth": 2
   },
   "links": {
@@ -752,8 +753,8 @@
   "map": {
     "print": "landscape",
     "players": {
-      "x": 25,
-      "y": 1140
+      "x": 1770,
+      "y": 1090
     },
     "hexes": [
       {
@@ -1319,7 +1320,8 @@
         "mountain": {
           "cost": "L'Etna",
           "size": "large",
-          "percent": "0"
+          "percent": "0",
+          "color": "gray"
         },
 
         "hexes": ["L7"]
@@ -1361,7 +1363,6 @@
         "color": "plain",
         "centerTowns": [
           {
-            "percent": 0.3333,
             "name": {
               "name": "Acireale"
             }
@@ -1370,8 +1371,8 @@
         "companies": [
           {
             "label": "SCE",
-            "angle": 180,
-            "percent": 0.45,
+            "angle": 360,
+            "percent": 0.5,
             "color": "orange",
             "radius": 6
           }
@@ -1572,7 +1573,7 @@
         ],
         "offBoardRevenue": {
           "angle": 0,
-          "percent": 0.8,
+          "percent": 0.78,
           "revenues": [
             {
               "color": "plain",
