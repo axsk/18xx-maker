@@ -1,6 +1,5 @@
 {
   "name": "Alex turq",
-  "fontFamily": "Times New Roman",
   "colors": {
     "yellow": "#fde900",
     "green": "#71bf44",
@@ -9,7 +8,7 @@
 
     "plain": "#fff5e6",
     "offboard": "#c1575e",
-    "mountain": "#ff944b",
+    "mountain": "#B87345",
     "water": "#62a0ff",
     "land": "#dcd8ba",
     "river": "#68B2D8",

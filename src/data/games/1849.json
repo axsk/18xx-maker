@@ -8,7 +8,11 @@
     "titleY": 880,
     "titleX": 25,
     "marketTokens": 2,
-    "currency": "L.#"
+    "currency": "L.#",
+    "#nameFontSize": "14",
+    "nameFontWeight": "300",
+    "nameFontFamily": "display",
+    "borderWidth": 2
   },
   "links": {
     "bgg": "https://boardgamegeek.com/boardgame/3097/1849-game-sicilian-railways",
@@ -67,11 +71,6 @@
       "number": 4,
       "certLimit": "11",
       "capital": 375
-    },
-    {
-      "number": 5,
-      "certLimit": 9,
-      "capital": 300
     }
   ],
   "privates": [
@@ -800,27 +799,27 @@
         "copy": "B3",
         "centerTowns": [
           {
-            "angle": 180,
-            "percent": 0.333,
             "name": {
               "name": "Partinico"
             }
           }
         ],
+
         "mountain": {
-          "percent": 0.333
+          "angle": -30,
+          "percent": 0.66
         },
         "hexes": ["D5"]
       },
       {
         "copy": "C6",
+
         "mountain": {
-          "percent": 0.333
+          "angle": -30,
+          "percent": 0.66
         },
         "centerTowns": [
           {
-            "angle": 180,
-            "percent": 0.333,
             "name": {
               "name": "Sciacca"
             }
@@ -831,13 +830,13 @@
 
       {
         "copy": "B5",
+
         "mountain": {
-          "percent": 0.333
+          "angle": -30,
+          "percent": 0.66
         },
         "centerTowns": [
           {
-            "angle": 180,
-            "percent": 0.333,
             "name": {
               "name": "Corleone"
             }
@@ -847,32 +846,32 @@
       },
       {
         "copy": "B3",
-        "mountain": {
-          "percent": 0.45
-        },
         "cities": [
           {
-            "angle": 180,
-            "percent": 0.333,
             "name": {
-              "name": "Girgenti"
+              "name": "Girgenti",
+              "fontSize": 14
             },
             "companies": ["SFA"]
           }
         ],
+        "mountain": {
+          "angle": -30,
+          "percent": 0.66
+        },
         "hexes": ["F11"]
       },
       {
         "copy": "C6",
         "mountain": {
-          "percent": 0.45
+          "angle": -30,
+          "percent": 0.66
         },
         "cities": [
           {
-            "angle": 180,
-            "percent": 0.333,
             "name": {
-              "name": "Caltanisetta"
+              "name": "Caltanisetta",
+              "fontSize": 14
             },
             "companies": []
           }
@@ -929,15 +928,15 @@
         "values": [
           {
             "value": 10,
-            "angle": 60,
-            "percent": 0.6
+            "angle": 210,
+            "percent": 0.75
           }
         ],
         "centerTowns": [
           {
             "name": {
               "name": "Milazzo",
-              "y": -30
+              "y": -22
             }
           }
         ],
@@ -994,8 +993,8 @@
         "values": [
           {
             "value": 30,
-            "angle": 180,
-            "percent": 0.667
+            "angle": 210,
+            "percent": 0.75
           }
         ],
         "labels": [
@@ -1009,7 +1008,7 @@
           {
             "name": {
               "name": "Messina",
-              "rotation": 90
+              "fontSize": 14
             }
           }
         ],
@@ -1026,7 +1025,8 @@
           {
             "name": {
               "name": "Trapani",
-              "rotation": -90
+              "rotation": -90,
+              "fontSize": 14
             }
           }
         ],
@@ -1093,7 +1093,8 @@
             "name": {
               "name": "Palermo",
               "reverse": true,
-              "rotation": 30
+              "rotation": 15,
+              "fontSize": 14
             }
           }
         ],
@@ -1198,7 +1199,8 @@
             "companies": ["CTL"],
             "name": {
               "name": "Marsala",
-              "rotation": -90
+              "rotation": -90,
+              "fontSize": "14"
             }
           }
         ],
@@ -1268,8 +1270,8 @@
         "values": [
           {
             "value": 10,
-            "angle": 60,
-            "percent": 0.6
+            "angle": 210,
+            "percent": 0.75
           }
         ],
         "centerTowns": [
@@ -1278,7 +1280,7 @@
               "name": "Taormina",
               "reverse": true,
               "rotation": -60,
-              "y": -35
+              "y": -32
             }
           }
         ],
@@ -1399,7 +1401,7 @@
             "name": {
               "name": "Catania",
               "reverse": true,
-              "rotation": -60
+              "fontSize": 14
             }
           }
         ],
@@ -1468,8 +1470,8 @@
         "copy": "B5",
         "color": "yellow",
         "mountain": {
-          "angle": 90,
-          "percent": 0.5
+          "angle": 270,
+          "percent": 0.6
         },
         "track": [
           {
@@ -1486,15 +1488,15 @@
         "values": [
           {
             "value": 10,
-            "angle": 60,
-            "percent": 0.6
+            "angle": 210,
+            "percent": 0.75
           }
         ],
         "centerTowns": [
           {
             "name": {
               "name": "Augusta",
-              "y": -30
+              "y": -23
             }
           }
         ],
@@ -1540,7 +1542,10 @@
             "size": 2,
             "name": {
               "name": "Terranova",
-              "reverse": true
+              "reverse": true,
+              "fontSize": 14,
+              "y": 0,
+              "straight": true
             }
           }
         ],
@@ -1567,7 +1572,7 @@
         ],
         "offBoardRevenue": {
           "angle": 0,
-          "percent": 0.7,
+          "percent": 0.8,
           "revenues": [
             {
               "color": "plain",
@@ -1592,7 +1597,8 @@
           {
             "name": {
               "name": "Ragusa",
-              "rotation": -30
+              "rotation": -30,
+              "fontSize": 14
             }
           }
         ],
@@ -1608,7 +1614,7 @@
         "values": [
           {
             "value": 20,
-            "angle": 90,
+            "angle": 210,
             "percent": 0.75
           }
         ],
@@ -1632,7 +1638,9 @@
             "companies": ["ATA"],
             "name": {
               "name": "Siracusa",
-              "rotation": 30
+
+              "reverse": true,
+              "fontSize": 14
             }
           }
         ],
