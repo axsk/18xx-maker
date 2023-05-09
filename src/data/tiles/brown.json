@@ -282,15 +282,15 @@
     "track": [
       {
         "type": "gentle",
-        "side": 1
+        "side": 6
+      },
+      {
+        "type": "sharp",
+        "side": 6
       },
       {
         "type": "sharp",
         "side": 1
-      },
-      {
-        "type": "sharp",
-        "side": 2
       }
     ]
   },
@@ -403,16 +403,16 @@
       },
       {
         "type": "gentle",
-        "side": 3,
+        "side": 6,
         "cross": "under"
       },
       {
         "type": "gentle",
-        "side": 5
+        "side": 2
       },
       {
         "type": "sharp",
-        "side": 3
+        "side": 6
       }
     ]
   },
@@ -426,16 +426,16 @@
       },
       {
         "type": "gentle",
-        "side": 3,
+        "side": 6,
         "cross": "under"
       },
       {
         "type": "sharp",
-        "side": 4
+        "side": 1
       },
       {
         "type": "gentle",
-        "side": 1
+        "side": 4
       }
     ]
   },
@@ -1719,7 +1719,7 @@
     "values": [
       {
         "angle": 270,
-        "percent": 0.9,
+        "percent": 0.915,
         "value": 60
       }
     ],
@@ -5035,7 +5035,9 @@
     "color": "brown",
     "values": [
       {
-        "value": 20
+        "value": 20,
+        "x": 0,
+        "y": 0
       }
     ],
     "towns": [
@@ -5260,15 +5262,15 @@
       },
       {
         "value": 20,
-        "angle": 25,
+        "angle": 275,
         "percent": 0.75
       }
     ],
     "labels": [
       {
         "label": "N",
-        "angle": 270,
-        "percent": 0.8
+        "angle": 90,
+        "percent": 0.91
       }
     ],
     "cities": [
@@ -5292,20 +5294,16 @@
         "start": 0.25
       },
       {
-        "side": 2,
-        "type": "gentle",
-        "end": 0.5
-      },
-      {
-        "side": 3,
-        "type": "gentle",
-        "start": 0.5
+        "side": 2
       },
       {
         "side": 3
       },
       {
         "side": 4
+      },
+      {
+        "side": 5
       },
       {
         "side": 6,
@@ -5378,7 +5376,7 @@
       {
         "label": "M",
         "angle": 90,
-        "percent": 0.9
+        "percent": 0.88
       }
     ],
     "towns": [
@@ -5748,7 +5746,7 @@
         "label": "£",
         "angle": 270,
         "percent": 0.333,
-        "y": 50,
+        "y": 45,
         "fontSize": 30
       },
       {

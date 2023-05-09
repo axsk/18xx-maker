@@ -78,7 +78,9 @@
     "color": "yellow",
     "values": [
       {
-        "value": 10
+        "value": 10,
+        "x": 0,
+        "y": 0
       }
     ],
     "towns": [
@@ -2924,9 +2926,9 @@
     "labels": [
       {
         "label": "£",
-        "angle": 90,
+        "angle": 270,
         "percent": 0.333,
-        "y": 50,
+        "y": 45,
         "fontSize": 30
       },
       {
@@ -2939,10 +2941,10 @@
       {
         "angle": 240,
         "percent": 0.7,
-        "value": 20
+        "value": 30
       },
       {
-        "angle": 60,
+        "angle": 300,
         "percent": 0.5,
         "value": 10
       }

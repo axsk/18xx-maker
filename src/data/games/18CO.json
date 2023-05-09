@@ -1,0 +1,2850 @@
+{
+  "info": {
+    "title": "18CO",
+    "subtitle": "Rock & Stock",
+    "designer": "R. Ryan Driskel",
+    "background": "grey",
+    "titleX": 150,
+    "titleY": -110,
+    "titleSize": 85,
+    "subTitleSize": 18,
+    "designerSize": 16,
+    "currency": "$#",
+    "orientation": "vertical"
+  },
+  "colors": {
+    "darkBlue": "#191970"
+  },
+  "links": {
+    "bgg": "https://boardgamegeek.com/boardgame/327295/18co-rock-stock",
+    "rules": "https://boardgamegeek.com/boardgame/327295/18co-rock-stock/files"
+  },
+  "tokens": [
+    "Round",
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "medium-city"
+    }
+  ],
+  "ipo": true,
+  "bank": 10000,
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 17,
+      "capital": 500
+    },
+    {
+      "number": 4,
+      "certLimit": 14,
+      "capital": 375
+    },
+    {
+      "number": 5,
+      "certLimit": 12,
+      "capital": 300
+    },
+    {
+      "number": 6,
+      "certLimit": 10,
+      "capital": 250
+    }
+  ],
+  "shareTypes": {
+    "default": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": 20,
+        "shares": 2
+      },
+      {
+        "quantity": 8,
+        "percent": 10,
+        "shares": 1
+      }
+    ]
+  },
+  "tokenTypes": {
+    "two": ["Home", 40],
+    "three": ["Home", 40, 100],
+    "four": ["Home", 40, 100, 100]
+  },
+  "companies": [
+    {
+      "name": "Kansas Pacific Railway",
+      "abbrev": "KP",
+      "color": "brown",
+      "tokens": "three"
+    },
+    {
+      "name": "Colorado Midland",
+      "abbrev": "CM",
+      "color": "lightBlue",
+      "tokens": "four"
+    },
+    {
+      "name": "Colorado & Southern",
+      "abbrev": "CS",
+      "color": "black",
+      "tokens": "three"
+    },
+    {
+      "name": "Denver Pacific",
+      "abbrev": "DP",
+      "color": "purple",
+      "tokens": "two"
+    },
+    {
+      "name": "Denver & Salt Lake",
+      "abbrev": "DSL",
+      "color": "green",
+      "tokens": "two"
+    },
+    {
+      "name": "Denver & Rio Grande",
+      "abbrev": "DRG",
+      "color": "yellow",
+      "tokens": [0, 40, 80, 100, 100, 100]
+    },
+    {
+      "name": "Atchinson, Tokepa and Santa Fe Railway",
+      "abbrev": "ATSF",
+      "color": "darkBlue",
+      "tokens": [0, 40, 80, 100, 100, 100]
+    },
+    {
+      "name": "Chicago, Burlington & Quincy",
+      "abbrev": "CBQ",
+      "color": "orange",
+      "tokens": [0, 40, 80, 100, 100, 100, 100]
+    },
+    {
+      "name": "Chicago, Rock Island & Pacific",
+      "abbrev": "ROCK",
+      "color": "red",
+      "tokens": [0, 40, 80, 100, 100, 100, 100, 100]
+    },
+    {
+      "name": "Union Pacific",
+      "abbrev": "UP",
+      "color": "gray",
+      "tokens": [0, 40, 80, 100, 100, 100, 100, 100]
+    },
+    {
+      "name": "Durango & Silverton Narrow Gauge",
+      "abbrev": "DSNG",
+      "color": "pink",
+      "tokens": "two",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 2,
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 4,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    }
+  ],
+  "trains": [
+    {
+      "name": "2P",
+      "quantity": 1,
+      "price": 0,
+      "color": "brown",
+      "image": "2T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "quantity": 6,
+      "price": 100,
+      "color": "yellow",
+      "image": "2T",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4"
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "quantity": 5,
+      "price": 180,
+      "color": "green",
+      "image": "3T",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 4D"
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "quantity": 4,
+      "price": 280,
+      "color": "green",
+      "image": "4T",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 6"
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "quantity": 2,
+      "price": 500,
+      "color": "brown",
+      "image": "5T",
+      "info": [
+        {
+          "color": "grey",
+          "note": "Rusted by E"
+        }
+      ]
+    },
+    {
+      "name": "4D",
+      "quantity": 3,
+      "price": 650,
+      "color": "brown",
+      "image": "5T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "quantity": 10,
+      "price": 720,
+      "color": "brown",
+      "image": "6T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "5D",
+      "quantity": 2,
+      "price": 850,
+      "color": "brown",
+      "image": "6T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "E",
+      "quantity": 1,
+      "price": 1000,
+      "color": "brown",
+      "image": "Diesel",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    }
+  ],
+  "privates": [
+    {
+      "name": "Idarado Mining Company",
+      "price": 30,
+      "revenue": 5,
+      "hex": "L3"
+    },
+    {
+      "name": "Waterloo & Saugeen Railway Co.",
+      "price": 40,
+      "revenue": 10,
+      "hex": "I12",
+      "description": "The public company that owns this private company may place a free station marker and green #59 tile on the Kitchener hex (I12). This action closes the private company."
+    },
+    {
+      "name": "The Canada Company",
+      "price": 50,
+      "revenue": 10,
+      "hex": "H11",
+      "description": "During its operating turn, the public company owning this private company may place a track tile in the hex occupied by this private company (H11). This track lay is in addition to the public company's normal track lay. This action does not close the private company."
+    },
+    {
+      "name": "Great Lakes Shipping Company",
+      "price": 70,
+      "revenue": 15,
+      "icon": "port",
+      "description": "At any time during its operating turn, the owning public company may place the port token in any one city adjacent to Lake Erie, Lake Huron or Georgian Bay. Placement of this token closes the Great Lakes Shipping Company."
+    },
+    {
+      "name": "Niagara Falls Suspension Bridge Company",
+      "price": 100,
+      "revenue": 20,
+      "icon": "bridge",
+      "description": "The public company that owns this private company may add a $10 bonus when running to Buffalo (P17/P19). Other public companies may purchase the right for $50."
+    },
+    {
+      "name": "St. Clair Frontier Tunnel Company",
+      "price": 100,
+      "revenue": 20,
+      "hex": "B13",
+      "description": "The public company that owns this private company may add a $10 Port Huron bonus when running to Sarnia (B13). Other public companies may purchase the right for $50."
+    }
+  ],
+  "phases": [
+    {
+      "name": "2",
+      "limit": "4",
+      "number": "6",
+      "tiles": "yellow"
+    },
+    {
+      "name": "3",
+      "limit": "4",
+      "number": "5",
+      "tiles": "green",
+      "notes": "Private companies may be purchased."
+    },
+    {
+      "name": "4",
+      "rust": "2",
+      "limit": "3",
+      "number": "4",
+      "tiles": "green"
+    },
+    {
+      "name": "5",
+      "limit": "2",
+      "number": "3",
+      "tiles": "brown",
+      "notes": "Private companies are closed."
+    },
+    {
+      "name": "6",
+      "limit": "2",
+      "number": "2",
+      "rust": "3",
+      "tiles": "gray",
+      "notes": "The CGR is started. D Trains may be purchased. +20 Port token removed. Small cities may be upgraded / downgraded."
+    },
+    {
+      "name": "D",
+      "limit": "2",
+      "number": "∞",
+      "rust": "4",
+      "tiles": "gray"
+    }
+  ],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "orange",
+          "note": "Corporations float when 50% is owned by players or the open market - trade-in shares do not count."
+        },
+        {
+          "color": "orange",
+          "note": "Major corporations receive mail contract equal to value of home city when starting an operating round with a train."
+        },
+        {
+          "color": "orange",
+          "note": "Certificate limit +1 if no corporation merges into NdM at the start of phase 5."
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "name": "OR2",
+      "color": "white"
+    },
+    {
+      "name": "OR1",
+      "color": "white"
+    },
+    {
+      "name": "SR",
+      "color": "white"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": ["Buy one certificate", "Sell any number of certificates"],
+      "ordered": false
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+        "Lay or upgrade track",
+        "Purchase a station",
+        "Run trains",
+        "Pay interest on government loans",
+        "Pay dividends or withhold revenue",
+        "Purchase trains",
+        "Redeem government loans"
+      ],
+      "ordered": true,
+      "optional": ["Purchase private companies"]
+    }
+  ],
+  "stock": {
+    "type": "2D",
+    "display": {
+      "legend": {
+        "reverse": true,
+        "verticalAlign": "bottom",
+        "x": 7,
+        "y": 11
+      }
+    },
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Every 10% sold"],
+      "left": ["Revenue withheld"],
+      "right": ["Revenue paid out"]
+    },
+    "ledges": [
+      {
+        "color": "red",
+        "border": true,
+        "coords": ["2 3", "3 3", "3 7", "2 7", "2 3"]
+      },
+      {
+        "color": "red",
+        "border": true,
+        "coords": ["3 2", "5 2", "5 4", "3 4", "3 2"]
+      },
+      {
+        "color": "red",
+        "border": true,
+        "coords": ["5 1", "7 1", "7 3", "5 3", "5 1"]
+      }
+    ],
+    "market": [
+      [
+        {
+          "value": 140,
+          "arrow": "down"
+        },
+        145,
+        150,
+        155,
+        165,
+        175,
+        190,
+        205,
+        225,
+        250,
+        280,
+        315,
+        355,
+        395,
+        440,
+        485
+      ],
+      [
+        {
+          "value": 110,
+          "arrow": "down"
+        },
+        115,
+        120,
+        125,
+        135,
+        {
+          "value": 145,
+          "color": "gray_dark",
+          "subLabel": "A"
+        },
+        {
+          "value": 160,
+          "color": "gray_dark",
+          "subLabel": "A"
+        },
+        175,
+        195,
+        220,
+        250,
+        280,
+        315,
+        350,
+        385,
+        {
+          "value": 425,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 85,
+          "arrow": "down"
+        },
+        90,
+        95,
+        {
+          "value": 100,
+          "color": "gray",
+          "subLabel": "B"
+        },
+        {
+          "value": 110,
+          "color": "gray",
+          "subLabel": "B"
+        },
+        {
+          "value": 120,
+          "color": "gray_dark",
+          "subLabel": "A"
+        },
+        {
+          "value": 135,
+          "color": "gray_dark",
+          "subLabel": "A"
+        },
+        150,
+        170,
+        195,
+        220,
+        250,
+        280,
+        315,
+        350,
+        {
+          "value": 385,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 65,
+          "arrow": "down"
+        },
+        70,
+        {
+          "value": 75,
+          "color": "gray_light",
+          "subLabel": "C"
+        },
+        {
+          "value": 80,
+          "color": "gray",
+          "subLabel": "B"
+        },
+        {
+          "value": 90,
+          "color": "gray",
+          "subLabel": "B"
+        },
+        100,
+        115,
+        130,
+        150,
+        170,
+        195,
+        215,
+        240,
+        265,
+        290,
+        {
+          "value": 320,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 50,
+          "arrow": "down"
+        },
+        55,
+        {
+          "value": 60,
+          "color": "gray_light",
+          "subLabel": "C"
+        },
+        65,
+        75,
+        85,
+        100,
+        115,
+        130,
+        150,
+        170,
+        185,
+        {
+          "value": 205,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 40,
+          "arrow": "down"
+        },
+        45,
+        {
+          "value": 50,
+          "color": "gray_light",
+          "subLabel": "C"
+        },
+        55,
+        65,
+        75,
+        85,
+        100,
+        115,
+        {
+          "value": 130,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 30,
+          "arrow": "down"
+        },
+        35,
+        {
+          "value": 40,
+          "color": "gray_light",
+          "subLabel": "C"
+        },
+        45,
+        55,
+        65,
+        75,
+        {
+          "value": 85,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 25,
+          "arrow": "down"
+        },
+        30,
+        35,
+        40,
+        45,
+        55,
+        {
+          "value": 65,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 20,
+          "arrow": "down"
+        },
+        25,
+        30,
+        35,
+        40,
+        {
+          "value": 45,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 15,
+          "arrow": "down"
+        },
+        20,
+        25,
+        30,
+        35,
+        {
+          "value": 40,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 10,
+          "color": "red",
+          "labelColor": "white",
+          "arrow": "down"
+        },
+        15,
+        20,
+        25,
+        {
+          "value": 30,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 10,
+          "color": "red",
+          "labelColor": "white",
+          "arrow": "down"
+        },
+        {
+          "value": 10,
+          "color": "red",
+          "labelColor": "white"
+        },
+        15,
+        20,
+        {
+          "value": 20,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 10,
+          "color": "red",
+          "labelColor": "white"
+        },
+        {
+          "value": 10,
+          "color": "red",
+          "labelColor": "white"
+        },
+        {
+          "value": 10,
+          "color": "red",
+          "labelColor": "white"
+        },
+        {
+          "value": 15,
+          "color": "red",
+          "labelColor": "white"
+        },
+        {
+          "value": 15,
+          "color": "red",
+          "labelColor": "white",
+          "arrow": "up"
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "blue",
+        "description": "Companies float at 40%. Class III only.",
+        "icon": "certificate"
+      },
+      {
+        "color": "purple",
+        "description": "Companies float at 50%. Class II/III only.",
+        "icon": "percentage"
+      },
+      {
+        "color": "lightYellow",
+        "description": "Companies float at 60%.",
+        "icon": "times"
+      },
+      {
+        "color": "pink",
+        "description": "Acquisition: Corporation assets will be auctioned if entering SR",
+        "icon": "times"
+      }
+    ]
+  },
+  "tiles": {
+    "3": 6,
+    "4": 6,
+    "5": 3,
+    "6": 6,
+    "7": 15,
+    "8": 25,
+    "9": 25,
+    "57": 6,
+    "58": 6,
+    "14": 4,
+    "15": 4,
+    "16": 2,
+    "17": 2,
+    "18": 2,
+    "19": 2,
+    "20": 2,
+    "21": 1,
+    "22": 1,
+    "23": 3,
+    "24": 3,
+    "25": 2,
+    "26": 2,
+    "27": 2,
+    "28": 2,
+    "29": 2,
+    "39": 1,
+    "40": 2,
+    "41": 1,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "47": 1,
+    "63": 6,
+    "co1": {
+      "color": "yellow",
+      "track": [
+        {
+          "type": "sharp",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 3
+        },
+        {
+          "type": "sharp",
+          "side": 5
+        }
+      ],
+      "cities": [
+        {
+          "angle": 270,
+          "percent": 0.5,
+          "size": 1
+        },
+        {
+          "angle": 150,
+          "percent": 0.5,
+          "size": 1
+        },
+        {
+          "angle": 30,
+          "rotation": 30,
+          "percent": 0.5,
+          "size": 2
+        }
+      ],
+      "values": [
+        {
+          "value": 30,
+          "angle": 210,
+          "percent": 0.8,
+          "rotation": 30
+        }
+      ],
+      "labels": [
+        {
+          "label": "D",
+          "angle": 100,
+          "percent": 0.85,
+          "rotation": 30
+        }
+      ]
+    },
+    "co2": {
+      "color": "green",
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "type": "sharp",
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "cities": [
+        {
+          "angle": 150,
+          "percent": 0.7,
+          "size": 1
+        },
+        {
+          "rotation": 60,
+          "angle": 330,
+          "percent": 0.32,
+          "size": 3
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 210,
+          "percent": 0.8,
+          "rotation": 30
+        }
+      ],
+      "labels": [
+        {
+          "label": "D",
+          "angle": 90,
+          "percent": 0.8,
+          "rotation": 30
+        }
+      ]
+    },
+    "co3": {
+      "color": "brown",
+      "rotations": 1,
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.915,
+          "value": 70,
+          "rotation": 30
+        }
+      ],
+      "labels": [
+        {
+          "angle": 90,
+          "percent": 0.9,
+          "label": "D",
+          "rotation": 30
+        }
+      ],
+      "cities": [
+        {
+          "size": 4
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "co4": {
+      "quantity": 3,
+      "color": "brown",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 50
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "co5": {
+      "color": "yellow",
+      "track": [
+        {
+          "type": "sharp",
+          "side": 1
+        },
+        {
+          "type": "gentle",
+          "side": 4
+        }
+      ],
+      "cities": [
+        {
+          "angle": 30,
+          "percent": 0.5,
+          "size": 1
+        },
+        {
+          "angle": 210,
+          "percent": 0.5,
+          "size": 1
+        }
+      ],
+      "values": [
+        {
+          "value": 20,
+          "angle": 120,
+          "percent": 0.3,
+          "rotation": 30
+        }
+      ],
+      "labels": [
+        {
+          "label": "C",
+          "angle": 120,
+          "percent": 0.8,
+          "rotation": 30
+        }
+      ]
+    },
+    "co6": {
+      "color": "green",
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 40,
+          "rotation": 30
+        }
+      ],
+      "labels": [
+        {
+          "label": "C",
+          "angle": 150,
+          "percent": 0.8,
+          "rotation": 30
+        }
+      ]
+    },
+    "co7": {
+      "color": "brown",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 60,
+          "rotation": 30
+        }
+      ],
+      "labels": [
+        {
+          "label": "C",
+          "angle": 90,
+          "percent": 0.8,
+          "rotation": 30
+        }
+      ],
+      "cities": [
+        {
+          "size": 3
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "co8": {
+      "quantity": 5,
+      "color": "green",
+      "centerTowns": [{}],
+      "values": [
+        {
+          "value": 20,
+          "angle": 210,
+          "percent": 0.8
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 2
+        }
+      ]
+    },
+    "co9": {
+      "quantity": 5,
+      "color": "green",
+      "centerTowns": [{}],
+      "values": [
+        {
+          "value": 20,
+          "angle": 210,
+          "percent": 0.8
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 6
+        },
+        {
+          "side": 4
+        }
+      ]
+    },
+    "co10": {
+      "quantity": 2,
+      "color": "green",
+      "centerTowns": [{}],
+      "values": [
+        {
+          "value": 20,
+          "angle": 210,
+          "percent": 0.8
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        }
+      ]
+    }
+  },
+
+  "map": {
+    "players": {
+      "x": 1472,
+      "y": 5
+    },
+    "roundTracker": {
+      "x": 1615,
+      "y": 1475
+    },
+    "hexes": [
+      {
+        "color": "gray",
+        "hexes": ["C13"]
+      },
+      {
+        "color": "offboard",
+        "cities": [
+          {
+            "name": {
+              "name": "Cheyenne"
+            },
+            "companies": ["UP"]
+          }
+        ],
+        "offBoardRevenue": {
+          "angle": 180,
+          "percent": 0.7,
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 40
+            },
+            {
+              "color": "brown",
+              "revenue": 50
+            }
+          ]
+        },
+        "hexes": ["A17"],
+        "track": [
+          {
+            "side": 5,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Laramie"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "50"
+            },
+            {
+              "color": "brown",
+              "cost": "20"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["A11"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Salt Lake City"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "50"
+            },
+            {
+              "color": "brown",
+              "cost": "70"
+            }
+          ],
+          "percent": 0.05,
+          "angle": 180
+        },
+        "routeBonus": {
+          "value": "+$100",
+          "percent": 0.25
+        },
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": ["E1"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 180,
+          "name": {
+            "name": "Farmington"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 20
+            },
+            {
+              "color": "brown",
+              "revenue": 30
+            }
+          ]
+        },
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["L2"]
+      },
+      {
+        "color": "offboard",
+        "cities": [
+          {
+            "name": {
+              "name": "Lincoln"
+            },
+            "companies": ["CBQ"]
+          }
+        ],
+        "routeBonus": [
+          {
+            "value": "+$100",
+            "fillColor": "black",
+            "strokeColor": "white",
+            "textColor": "white",
+            "angle": 330,
+            "percent": 0.65
+          }
+        ],
+        "offBoardRevenue": {
+          "angle": 180,
+          "percent": 0.7,
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 50
+            },
+            {
+              "color": "brown",
+              "revenue": 30
+            }
+          ]
+        },
+        "hexes": ["B26"],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "cities": [
+          {
+            "name": {
+              "name": "Kansas City"
+            },
+            "companies": ["KP"]
+          }
+        ],
+        "routeBonus": [
+          {
+            "value": "+$100",
+            "fillColor": "black",
+            "strokeColor": "white",
+            "textColor": "white",
+            "angle": 330,
+            "percent": 0.65
+          }
+        ],
+        "offBoardRevenue": {
+          "angle": 180,
+          "percent": 0.7,
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 50
+            },
+            {
+              "color": "brown",
+              "revenue": 30
+            }
+          ]
+        },
+        "hexes": ["E27"],
+        "track": [
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "cities": [
+          {
+            "name": {
+              "name": "Kansas City",
+              "reverse": true
+            },
+            "companies": ["ROCK"]
+          }
+        ],
+        "routeBonus": [
+          {
+            "value": "+$100",
+            "fillColor": "black",
+            "strokeColor": "white",
+            "textColor": "white",
+            "angle": 210,
+            "percent": 0.65
+          }
+        ],
+        "offBoardRevenue": {
+          "angle": 0,
+          "percent": 0.7,
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 50
+            },
+            {
+              "color": "brown",
+              "revenue": 30
+            }
+          ]
+        },
+        "hexes": ["G27"],
+        "track": [
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "cities": [
+          {
+            "name": {
+              "name": "Wichita"
+            },
+            "companies": ["ATSF"]
+          }
+        ],
+        "routeBonus": [
+          {
+            "value": "+$100",
+            "fillColor": "black",
+            "strokeColor": "white",
+            "textColor": "white",
+            "angle": 330,
+            "percent": 0.65
+          }
+        ],
+        "offBoardRevenue": {
+          "angle": 195,
+          "percent": 0.7,
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 40
+            },
+            {
+              "color": "brown",
+              "revenue": 20
+            }
+          ]
+        },
+        "hexes": ["J26"],
+        "track": [
+          {
+            "side": 6,
+            "type": "offboard"
+          },
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Fort Worth"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 30
+            },
+            {
+              "color": "brown",
+              "revenue": 50
+            }
+          ]
+        },
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["L20"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Santa Fe"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 30
+            },
+            {
+              "color": "brown",
+              "revenue": 50
+            }
+          ]
+        },
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["L14"]
+      },
+      {
+        "color": "yellow",
+        "cities": [
+          {
+            "name": {
+              "name": "Durango"
+            },
+            "companies": ["DSNG"]
+          }
+        ],
+        "hexes": ["K5"]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "B2",
+          "B4",
+          "B6",
+          "B14",
+          "B16",
+          "B18",
+          "B20",
+          "B24",
+          "C3",
+          "C5",
+          "C19",
+          "C23",
+          "C25",
+          "D2",
+          "D10",
+          "D16",
+          "D18",
+          "D20",
+          "D22",
+          "E3",
+          "E17",
+          "E19",
+          "E21",
+          "E23",
+          "E25",
+          "F2",
+          "F4",
+          "F16",
+          "F18",
+          "F22",
+          "G5",
+          "G13",
+          "G19",
+          "G21",
+          "G23",
+          "G25",
+          "H2",
+          "H16",
+          "H18",
+          "H20",
+          "H22",
+          "H24",
+          "I3",
+          "I5",
+          "I11",
+          "I19",
+          "I25",
+          "J2",
+          "J12",
+          "J16",
+          "J18",
+          "J20",
+          "J22",
+          "J24",
+          "K3",
+          "K11",
+          "K19",
+          "K21",
+          "K23",
+          "K25"
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 40,
+            "size": "medium"
+          }
+        ],
+        "hexes": [
+          "B8",
+          "B12",
+          "C11",
+          "D6",
+          "D8",
+          "D12",
+          "E9",
+          "F14",
+          "G9",
+          "H4",
+          "H10",
+          "I13",
+          "I15",
+          "J4",
+          "J14",
+          "K7",
+          "K9"
+        ]
+      },
+      {
+        "color": "plain",
+        "icons": [
+          {
+            "angle": 90,
+            "percent": 0.4,
+            "type": "coal"
+          }
+        ],
+        "terrain": [
+          {
+            "percent": 0.4,
+            "angle": 270,
+            "cost": 40,
+            "type": "mountain",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["E13", "F6", "F10", "G7", "G15", "I7", "I9", "J8", "K15"]
+      },
+      {
+        "color": "plain",
+        "icons": [
+          {
+            "type": "coal"
+          }
+        ],
+        "hexes": ["G11", "J10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Walden"
+            }
+          }
+        ],
+        "hexes": ["B10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Sterling"
+            }
+          }
+        ],
+        "hexes": ["B22"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Craig"
+            }
+          }
+        ],
+        "hexes": ["C7"]
+      },
+      {
+        "color": "plain",
+        "mediumCities": [
+          {
+            "name": {
+              "name": "Steamboat Springs",
+              "reverse": true
+            },
+            "angle": 150,
+            "percent": 0.5
+          }
+        ],
+        "terrain": [
+          {
+            "cost": 40,
+            "angle": 300,
+            "percent": 0.6,
+            "type": "mountain",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["C9"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Fort Collins"
+            }
+          }
+        ],
+        "hexes": ["C15"]
+      },
+      {
+        "color": "plain",
+        "mediumCities": [
+          {
+            "name": {
+              "name": "Greeley"
+            }
+          }
+        ],
+        "hexes": ["C17"]
+      },
+      {
+        "color": "plain",
+        "mediumCities": [
+          {
+            "name": {
+              "name": "Fort Morgan"
+            }
+          }
+        ],
+        "hexes": ["C21"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Meeker"
+            }
+          }
+        ],
+        "hexes": ["D4"]
+      },
+      {
+        "color": "plain",
+        "mediumCities": [
+          {
+            "name": {
+              "name": "Boulder",
+              "reverse": true
+            }
+          }
+        ],
+        "icons": [
+          {
+            "angle": 180,
+            "percent": 0.667,
+            "type": "coal"
+          }
+        ],
+        "hexes": ["D14"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Wray"
+            }
+          }
+        ],
+        "hexes": ["D24"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Rifle"
+            }
+          }
+        ],
+        "hexes": ["E5"]
+      },
+      {
+        "color": "plain",
+        "mediumCities": [
+          {
+            "name": {
+              "name": "Glenwood Springs",
+              "reverse": true
+            },
+            "angle": 150,
+            "percent": 0.5
+          }
+        ],
+        "terrain": [
+          {
+            "cost": 40,
+            "angle": 300,
+            "percent": 0.6,
+            "type": "mountain",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["E7"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Dillon"
+            },
+            "angle": 60,
+            "percent": 0.5
+          }
+        ],
+        "icons": [
+          {
+            "angle": 180,
+            "percent": 0.667,
+            "type": "coal"
+          }
+        ],
+        "terrain": [
+          {
+            "cost": 40,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["E11"]
+      },
+      {
+        "color": "plain",
+        "track": [
+          {
+            "side": 3,
+            "type": "stop"
+          },
+          {
+            "side": 5,
+            "type": "stop"
+          }
+        ],
+        "labels": {
+          "angle": 270,
+          "percent": 0.75,
+          "label": "D"
+        },
+        "names": [
+          {
+            "name": "Denver",
+            "angle": 280,
+            "percent": 0.25
+          }
+        ],
+        "values": [
+          {
+            "angle": 150,
+            "percent": 0.7,
+            "value": 10
+          }
+        ],
+        "cities": [
+          {
+            "angle": 330,
+            "percent": 0.5,
+            "companies": ["DRG"]
+          },
+          {
+            "angle": 90,
+            "percent": 0.4,
+            "companies": ["DSL"]
+          },
+          {
+            "angle": 210,
+            "percent": 0.5,
+            "companies": ["DP"]
+          }
+        ],
+        "hexes": ["E15"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Aspen",
+              "reverse": true
+            },
+            "angle": 150,
+            "percent": 0.5
+          }
+        ],
+        "terrain": [
+          {
+            "cost": 40,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["F8"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "South Park"
+            }
+          }
+        ],
+        "hexes": ["F12"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Limon"
+            }
+          }
+        ],
+        "hexes": ["F20"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Burlington"
+            }
+          }
+        ],
+        "hexes": ["F24"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 1,
+            "type": "gentle"
+          },
+          {
+            "side": 2,
+            "type": "sharp"
+          },
+          {
+            "side": 5,
+            "type": "gentle"
+          },
+          {
+            "side": 5,
+            "type": "sharp"
+          }
+        ],
+        "hexes": ["F26"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Grand Junction"
+            }
+          }
+        ],
+        "hexes": ["G3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Colorado Springs"
+            },
+            "angle": 360,
+            "percent": 0.5,
+            "companies": ["CM"]
+          }
+        ],
+        "labels": [
+          {
+            "label": "C",
+            "size": 25,
+            "angle": 180,
+            "percent": 0.8
+          }
+        ],
+        "values": [
+          {
+            "angle": 180,
+            "percent": 0.3,
+            "value": 10
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 5
+          }
+        ],
+        "hexes": ["G17"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Montrose"
+            }
+          }
+        ],
+        "hexes": ["H6"]
+      },
+      {
+        "color": "plain",
+        "mediumCities": [
+          {
+            "name": {
+              "name": "Gunnison"
+            }
+          }
+        ],
+        "hexes": ["H8"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Salida"
+            },
+            "angle": 60,
+            "percent": 0.5
+          }
+        ],
+        "icons": [
+          {
+            "angle": 180,
+            "percent": 0.667,
+            "type": "coal"
+          }
+        ],
+        "terrain": [
+          {
+            "cost": 40,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["H12"]
+      },
+      {
+        "color": "plain",
+        "mediumCities": [
+          {
+            "name": {
+              "name": "Canon City",
+              "reverse": true
+            },
+            "angle": 150,
+            "percent": 0.5
+          }
+        ],
+        "terrain": [
+          {
+            "cost": 40,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["H14"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Pueblo"
+            }
+          }
+        ],
+        "hexes": ["I17"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "La Junta"
+            }
+          }
+        ],
+        "hexes": ["I21"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Lamar"
+            }
+          }
+        ],
+        "hexes": ["I23"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Silverton"
+            },
+            "angle": 60,
+            "percent": 0.5
+          }
+        ],
+        "icons": [
+          {
+            "angle": 180,
+            "percent": 0.667,
+            "type": "coal"
+          }
+        ],
+        "terrain": [
+          {
+            "cost": 40,
+            "angle": 300,
+            "percent": 0.5,
+            "type": "mountain",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["J6"]
+      },
+      {
+        "color": "plain",
+        "mediumCities": [
+          {
+            "name": {
+              "name": "Alamosa"
+            }
+          }
+        ],
+        "hexes": ["K13"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Trinidad"
+            },
+            "companies": ["CS"]
+          }
+        ],
+        "hexes": ["K17"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 1,
+            "type": "gentle"
+          },
+          {
+            "side": 1,
+            "type": "sharp"
+          }
+        ],
+        "hexes": ["L4"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 2,
+            "type": "gentle"
+          },
+          {
+            "side": 3,
+            "type": "sharp"
+          }
+        ],
+        "hexes": ["L12", "L18"]
+      }
+    ],
+    "borders": [
+      {
+        "color": "mountain",
+        "coords": ["B12p5", "B12p6"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["C11p6", "C11p1"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["B10p3", "B10p2", "B10p1"]
+      },
+      {
+        "color": "mountain",
+        "coords": [
+          "D12p5",
+          "D12p6",
+          "E13p5",
+          "E13p6",
+          "F14p5",
+          "F14p6",
+          "G15p5",
+          "G15p6",
+          "G15p1"
+        ]
+      },
+      {
+        "color": "mountain",
+        "coords": ["I15p4", "I15p5", "I15p6"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["I13p4", "I13p5", "I13p6", "I13p1", "K13p4"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["E13p5", "E13p4", "E13p3", "F12p4", "F12p3", "F12p2"]
+      },
+      {
+        "color": "mountain",
+        "coords": [
+          "F12p3",
+          "F10p5",
+          "E9p6",
+          "E9p5",
+          "E9p4",
+          "E7p5",
+          "E7p4",
+          "E5p5",
+          "E5p4"
+        ]
+      },
+      {
+        "color": "mountain",
+        "coords": ["E9p4", "D10p3", "D10p4"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["F8p5", "F8p6", "F8p1", "F8p2", "F6p1", "F6p2", "F4p1"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["E9p6", "E9p1", "E9p2"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["G7p5", "G7p6", "G7p1", "G7p2"]
+      },
+      {
+        "color": "mountain",
+        "coords": [
+          "G9p4",
+          "G9p5",
+          "G9p6",
+          "H10p5",
+          "H10p6",
+          "H10p1",
+          "H10p2",
+          "H8p1",
+          "H8p2",
+          "H6p1"
+        ]
+      },
+      {
+        "color": "mountain",
+        "coords": [
+          "I9p5",
+          "I9p6",
+          "I9p1",
+          "I9p2",
+          "I7p1",
+          "J6p6",
+          "J6p1",
+          "J6p2",
+          "J4p1"
+        ]
+      },
+      {
+        "color": "mountain",
+        "coords": ["K7p4", "K7p5", "K9p4", "K9p5", "K9p6"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["H2p4", "H2p5", "H2p6", "H4p1"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["K15p4", "K15p3", "K15p2"]
+      }
+    ],
+    "borderTexts": [
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "B10s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "B10s1"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "B12s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D6s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D6s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D8s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D8s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D10s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D10s1"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D10s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D12s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D12s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "D12s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "E9s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "E9s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "E9s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "E11s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "E11s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "E11s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "E13s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "E13s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "F10s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "F10s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "F10s1"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "F14s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "F14s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G5s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G5s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G7s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G7s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G7s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G7s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G7s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G9s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G9s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G15s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G15s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "G15s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "H2s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "H2s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "H4s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "H10s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "H10s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "H10s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I7s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I7s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I7s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I9s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I9s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I9s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I9s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I13s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I13s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I13s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I15s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I15s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "J8s1"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "J14s1"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "J14s5"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "I9s6"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "K5s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "K5s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "K7s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "K7s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "K9s2"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "K9s3"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "K9s4"
+      },
+      {
+        "cost": 40,
+        "circle": 16,
+        "bgColor": "mountain",
+        "color": "white",
+        "coord": "K15s1"
+      }
+    ]
+  }
+}
