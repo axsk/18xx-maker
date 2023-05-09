@@ -11,7 +11,7 @@
     },
     {
       "abbrev": "CN",
-      "color": "gray",
+      "color": "orange",
       "logo": "CN",
       "name": "Canadian National",
       "tokens": "zero"
@@ -25,7 +25,7 @@
     },
     {
       "abbrev": "HB",
-      "color": "orange",
+      "color": "yellow",
       "logo": "HB",
       "name": "Hudson Bay Railway",
       "tokens": "three"
@@ -53,7 +53,7 @@
     },
     {
       "abbrev": "QL",
-      "color": "yellow",
+      "color": "pink",
       "logo": "QLL",
       "name": "Qu'Appelle, Long Lake Railroad Co.",
       "tokens": "two"
