@@ -5,8 +5,8 @@
     "designer": "Federico Vellani",
     "background": "water",
     "orientation": "horizontal",
-    "titleY": 1000,
-    "titleX": 0,
+    "titleY": 1010,
+    "titleX": -40,
     "marketTokens": 2,
     "currency": "L.#",
     "#nameFontSize": "14",
@@ -80,28 +80,28 @@
       "price": 20,
       "revenue": 5,
       "hex": "M8",
-      "description": "A Corporation cannot build track in the Acireale hex until this Company is either eliminated or bought by any Corporation."
+      "description": "Blocks Acireale while owned by a player."
     },
     {
       "name": "Studio di Ingegneria Giuseppe Incorpora",
       "price": 45,
       "revenue": 10,
       "icon": "mountain",
-      "description": "The owning Corporation can lay or upgrade standard gauge track at half cost on Mountain, Hill or Rough hexes. Narrow gauge track is still at normal cost."
+      "description": "During its operating turn, the owning corporation can lay or upgrade standard gauge track on mountain, hill or rough hexes at half cost. Narrow gauge track is still at normal cost."
     },
     {
       "name": "Compagnia Navale Mediterranea",
       "price": 75,
       "revenue": 15,
       "token": { "color": "white", "label": "+L.20" },
-      "description": "The owning Corporation can place the +L. 20 token on any port. This action closes the Company but the Corporation adds L. 20 to the revenue of the port until the end of the game."
+      "description": "During its operating turn, the owning corporation may close this company to place the +L. 20 token on any port. The corporation that placed the token adds L. 20 to the revenue of the port for the rest of the game."
     },
     {
       "name": "Società Marittima Siciliana",
       "price": 110,
       "revenue": 20,
       "tile": "657",
-      "description": "The owning Corporation can place a tile and a token on a coastal city, even if that city is not connected to one of its railheads. This action closes the Company, and is made instead of the regular Track Laying and Token Laying Steps."
+      "description": "During its operating turn, the owning corporation may close this private company in lieu of performing both its tile and token placement steps to select any coastal city hex, optionally lay or upgrade a tile there, and optionally place a station token there. The company does not need to trace a route to that city, but all other placement rules apply."
     },
     {
       "name": "Reale Società d'Affari",
@@ -512,84 +512,52 @@
       "quantity": 4,
       "price": 100,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 8H"
-        }
-      ]
+      "rust": "8H",
+      "description": "Yellow Tiles, Par 68/100, 1 OR, Train limit 4, Lowest city value"
     },
     {
       "name": "6H",
       "quantity": 4,
       "price": 200,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 10H"
-        }
-      ]
+      "rust": "10H",
+      "description": "Green Tiles, can Par 144, 2 ORs, can buy Pvts."
     },
     {
       "name": "8H",
       "quantity": 3,
       "price": 350,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 16H"
-        }
-      ]
+      "rust": "16H",
+      "description": "Rust 4H, Train limit 3, Middle city value"
     },
     {
       "name": "10H",
       "quantity": 2,
       "price": 550,
       "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "description": "All tiles, can Par 216, 3 ORs, Rust 6H, Train limit 2"
     },
     {
       "name": "12H",
       "quantity": 1,
       "price": 800,
       "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "description": "Highest city value, Pvts. close, Messina Earthquake"
     },
     {
       "name": "16H",
       "quantity": 5,
       "price": 1100,
       "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "description": "Rust 8H, unlock R6H, Blue stock zone"
     },
     {
       "name": "R6H",
       "quantity": 2,
       "price": 350,
       "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "description": "Reverse: Count standard gauge at double rate"
     }
   ],
   "rounds": [
@@ -615,7 +583,7 @@
       "name": "Stock Round",
       "steps": [
         "Sell any number of certificates",
-        "Buy one certificate from treasury or bank pool, or start company"
+        "Buy one certificate or start company"
       ],
       "ordered": true
     },
@@ -626,8 +594,7 @@
         "Place one token",
         "Run trains",
         "Purchase trains",
-        "Sell treasury stock to the bank pool",
-        "Buy one stock certificate from the bank pool"
+        "Sell any or buy one certificate"
       ],
       "ordered": true,
       "optional": ["Purchase private companies"]
