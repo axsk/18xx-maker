@@ -68,8 +68,8 @@
     "titleFontFamily": "display",
     "subtitle": "",
     "title": "1882",
-    "titleX": 860,
-    "titleY": -65,
+    "titleX": 833,
+    "titleY": -150,
     "titleSize": 100
   },
   "ipo": true,
@@ -124,8 +124,8 @@
   ],
   "map": {
     "players": {
-      "x": 80,
-      "y": 1060
+      "x": 0,
+      "y": 1030
     },
     "borders": [
       {
@@ -1542,11 +1542,6 @@
   ],
   "players": [
     {
-      "capital": 900,
-      "certLimit": 20,
-      "number": 2
-    },
-    {
       "capital": 600,
       "certLimit": 14,
       "number": 3
@@ -1555,16 +1550,6 @@
       "capital": 450,
       "certLimit": 11,
       "number": 4
-    },
-    {
-      "capital": 360,
-      "certLimit": 10,
-      "number": 5
-    },
-    {
-      "capital": 300,
-      "certLimit": 9,
-      "number": 6
     }
   ],
   "pools": [
