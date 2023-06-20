@@ -190,14 +190,14 @@
       "price": 70,
       "revenue": 15,
       "hex": "F16",
-      "description": "A corporation owning the Delaware & Hudson may establish a railhead on the D&H hex by laying a station tile and a token. The station does not have to be connected to the remainder of the corporation's route. The tile laid is the owning corporation's one tile placement for the turn."
+      "description": "A corporation owning the D&H may establish a railhead on the D&H hex for only the $120 cost of the mountain. The station does not have to be connected to the remainder of the corporation's route. The tile laid is the owning corporation's one tile placement for the turn."
     },
     {
       "name": "Mohawk & Hudson",
       "price": 110,
       "revenue": 20,
       "company": "NYC",
-      "description": "A player owning the M&H may exhange it for a 10% share of the NYC if he does not already hold 60% of the NYC and there is NYC stock available in the Bank or the Pool. The exchange may be made during the player's turn of a stock round or between the turns of other players or corporations in either stock or operating rounds. This action closes the M&H."
+      "description": "A player owning the M&H may exchange it for a 10% share of the NYC if he does not already hold 60% of the NYC and there is NYC stock available in the Bank or the Pool. The exchange may be made during the player's turn of a stock round or between the turns of other players or corporations in either stock or operating rounds. This action closes the M&H."
     },
     {
       "name": "Camden & Amboy",
@@ -211,7 +211,7 @@
       "price": 220,
       "revenue": 30,
       "company": "B&O",
-      "description": "The owner of the B&O private company immediately receives the President's certificate of the B&O without further payment. The B&O private company may not be sold to any corporation, and does not exchange hands if the owning player loses the Presidency of the B&O. When the B&O purchases its first train the private company is closed down."
+      "description": "The owner of the B&O private company immediately receives the President's certificate of the B&O without further payment. The B&O private company may not be sold to any corporation, and does not exchange hands if the owning player loses the Presidency of the B&O. When the B&O purchases its first train the private company is closed."
     }
   ],
   "phases": [
