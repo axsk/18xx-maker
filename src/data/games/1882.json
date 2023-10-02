@@ -2049,11 +2049,11 @@
     }
   },
   "tokenTypes": {
-    "default": ["Free", 40],
-    "one": ["Free"],
-    "three": ["Free", 40, 40],
+    "default": ["Neutral", "Home", 40],
+    "one": ["Neutral", "Home"],
+    "three": ["Neutral", "Home", 40, 100],
     "zero": [],
-    "two": ["Home", 40],
+    "two": ["Neutral", "Home", 40],
     "four": ["Home", 40, 100, 100]
   },
   "tokens": [
@@ -2085,7 +2085,7 @@
       ],
       "name": "3",
       "price": 180,
-      "quantity": 5
+      "quantity": 4
     },
     {
       "color": "green",
@@ -2097,7 +2097,7 @@
       ],
       "name": "4",
       "price": 300,
-      "quantity": 4
+      "quantity": 3
     },
     {
       "color": "brown",
@@ -2109,7 +2109,7 @@
       ],
       "name": "5",
       "price": 450,
-      "quantity": 3
+      "quantity": 2
     },
     {
       "color": "brown",
